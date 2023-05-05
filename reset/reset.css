@@ -7,7 +7,11 @@ html, body, div, span, applet, object, iframe{
 	width: 500;
 
 }
-h1{height: 200px;}
+h1{
+	font-size: 100px;
+	height: 300px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
  h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img{width: 500;} ins, kbd, q, s, samp,
@@ -18,7 +22,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav{height: 150px;} output, ruby, section, summary,
+menu, nav{height: 100px;} output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -70,11 +74,16 @@ table {
 	flex-basis: 100%;
 	  
 	 
-	text-align: center;
+	text-align: auto;
 	  
 	 
 	margin-top: 10px;
 	}
-#video{
+#video
+{
 	margin-left:-200;
+}
+.textwhite{
+	color:whitesmoke;
+	font-family: 'Courier New', Courier, monospace;
 }
