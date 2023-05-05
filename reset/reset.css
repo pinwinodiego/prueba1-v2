@@ -12,7 +12,16 @@ h1{
 	height: 300px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- h2, h3, h4, h5, h6, p, blockquote, pre,
+ h2, h3{
+	font-size: 30px;
+	height: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin:auto;
+ } h4{
+	font-size: 50px;
+	height: 300px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ } h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img{width: 500;} ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -79,11 +88,21 @@ table {
 	 
 	margin-top: 10px;
 	}
-#video
-{
-	margin-left:-200;
-}
 .textwhite{
 	color:whitesmoke;
 	font-family: 'Courier New', Courier, monospace;
 }
+ul{
+	margin-left: 1700px;
+	margin-top: 110px;
+}
+h5{
+	font-size: 30px;
+	height: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 1700px;
+	margin-top: -300px;
+ }
+ #choche{
+	margin-top: -100px;
+ }
